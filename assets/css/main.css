@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #dadada;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #ffffff;
 	}
 
 	i, em {
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #dadada;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1508,7 +1508,7 @@ input, select, textarea {
 /* Form */
 
 	form label {
-		color: #3e3e3e;
+		color: #dbdbdb;
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
@@ -1532,7 +1532,7 @@ input, select, textarea {
 		border: solid 1px #ddd;
 		background: #fff;
 		color: #bbb;
-		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+		box-shadow: inset 0px 2px 3px 1px rgba(255, 255, 255, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
 	}
 
@@ -1629,6 +1629,8 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			border-top-right-radius: 12px;
+			border-top-left-radius: 12px;
 			width: 100%;
 		}
 
@@ -1682,11 +1684,10 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 8px;
+		border-radius: 12px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #313131;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1697,7 +1698,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #505050;
 			color: #fff !important;
 		}
 
@@ -1706,7 +1707,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #313131;
 			top: 1px;
 		}
 
@@ -1911,8 +1912,9 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #272727;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
 		text-align: center;
 		padding: 2em;
 	}
@@ -1987,35 +1989,34 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: inset 0px -2px 3px 0px #bebebe10;
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #121212;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #121212;
+			text-shadow: 1px 1px 0px #141414;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #121212;
+			text-shadow: 1px 1px 0px #141414;
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			background-color: #121212;
+			color: #121212;
+			text-shadow: -1px -1px 0px #141414;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: #e7e7e7;
 			}
 
 			.wrapper.style4 form input[type=text],
