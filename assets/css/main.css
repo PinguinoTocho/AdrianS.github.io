@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #dadada;
+		color: #ebebeb;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -144,13 +144,13 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.75em #eee;
+		border-left: solid 0.75em #ebebeb;
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #dadada;
+		color: #ebebeb;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -2011,7 +2011,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #121212;
-			color: #121212;
+			color: #ebebeb;
 			text-shadow: -1px -1px 0px #141414;
 		}
 
