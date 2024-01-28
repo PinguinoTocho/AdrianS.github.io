@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	background-color: #121212;
 	line-height: 1;
 }
 
@@ -1725,8 +1726,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+			background-color: #313131;
 		}
 
 			input[type="button"].alt:hover,
@@ -2000,7 +2000,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #121212;
+			background-color: #1f1f1f;
 			text-shadow: 1px 1px 0px #141414;
 		}
 
@@ -2010,7 +2010,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #121212;
+			background-color: #1f1f1f;
 			color: #ebebeb;
 			text-shadow: -1px -1px 0px #141414;
 		}
@@ -2046,6 +2046,7 @@ input, select, textarea {
 		z-index: 10000;
 		cursor: default;
 		height: 3.5em;
+		transition: top 0.2s ease-in-out;
 		line-height: 3.5em;
 	}
 
